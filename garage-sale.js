@@ -27,6 +27,14 @@ const products = [
       },
     ],
   },
+  {
+    name: "Televisor LG OLED",
+    description:
+      "---",
+    price: "$ 2.000.000",
+    photos: [
+    ],
+  },
 ];
 
 products.forEach((product) => drawProducts(product));
@@ -41,7 +49,7 @@ function drawProducts(product) {
   });
 
   const cardProduct = `
-    <div class="card mb-3">
+    <div class="card mt-3">
         <h5 class="card-header">
             <div id="ci" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
