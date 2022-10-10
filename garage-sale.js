@@ -1,43 +1,6 @@
-const products = [
-  {
-    name: "Bicicleta Todo Terreno",
-    description:
-      "Bicicleta marco STL en aluminio, cambios shimano, frenos de disco, cableado interno",
-    price: "$ 1.000.000",
-    photos: [
-      {
-        path: "img/bici/bici-01.jpg",
-        style: "w-100",
-      },
-      {
-        path: "img/bici/bici-02.jpg",
-        style: "w-100",
-      },
-      {
-        path: "img/bici/bici-03.jpg",
-        style: "w-100",
-      },
-      {
-        path: "img/bici/bici-04.jpg",
-        style: "w-100",
-      },
-      {
-        path: "img/bici/bici-05.jpg",
-        style: "w-25",
-      },
-    ],
-  },
-  {
-    name: "Televisor LG OLED",
-    description:
-      "---",
-    price: "$ 2.000.000",
-    photos: [
-    ],
-  },
-];
-
-products.forEach((product) => drawProducts(product));
+$.getJSON("info/items.json", data => {
+  data.products.forEach(p => drawProducts(p));
+});
 
 function drawProducts(product) {
   let buttonsImg = "";
