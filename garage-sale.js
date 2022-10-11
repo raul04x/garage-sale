@@ -1,6 +1,8 @@
 var myItems = [];
 var items = [];
 toastr.options.preventDuplicates = true;
+toastr.options.progressBar = true;
+toastr.options.positionClass = "toast-bottom-center";
 
 $.getJSON("info/items.json", (data) => {
   data.products.forEach((p, i) => drawProducts(i, p));
