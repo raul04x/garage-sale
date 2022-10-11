@@ -73,7 +73,7 @@ function addItem(id) {
   if (!myItem && item) {
     myItems.push(item);
     setNumberItems();
-    toastr.info(`El artículo <strong>${myItem.name}</strong> se ha agregado al carrito!`);
+    toastr.info(`El artículo <strong>${item.name}</strong> se ha agregado al carrito!`);
   } else {
     toastr.warning(`El artículo <strong>${myItem.name}</strong> ya se encuentra en el carrito!`);
   }
