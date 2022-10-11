@@ -29,11 +29,20 @@
             ]
         },
         {
-            "name": "Televisor LG OLED",
-            "description": "---",
-            "price": "$ 2.000.000",
+            "name": "Cámara Sony DSC-HX400V",
+            "description": "Cámara digital compacta con zoom óptico de 50x, maleta de cargar, careta de cuero y abrazadera, con 3 memorias SD (64GB, 16GB y 8GB)",
+            "price": "$ 1.200.000",
             "isSelled": false,
-            "photos": []
+            "photos": [
+                {
+                    "path": "img/camara-sony/camara-sony-1.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/camara-sony/camara-sony-2.jpg",
+                    "style": "w-100"
+                }
+            ]
         },
         {
             "name": "Silla De Escritorio Ergonómica",
@@ -48,6 +57,18 @@
                 {
                     "path": "img/silla/silla2.jpg",
                     "style": "w-50"
+                }
+            ]
+        },
+        {
+            "name": "Televisor LG OLED",
+            "description": "---",
+            "price": "$ 2.000.000",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/tele-1.jpg",
+                    "style": "w-100"
                 }
             ]
         }
