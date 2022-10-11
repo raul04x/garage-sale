@@ -1,32 +1,33 @@
 $.getJSON("info/items.json", data => {
-  data.products.forEach(p => drawProducts(p));
+  data.products.forEach((p, i) => drawProducts(i, p));
 });
 
-function drawProducts(product) {
+function drawProducts(index, product) {
   let buttonsImg = "";
   let images = "";
+  const target = `ci-${index}`;
   
   product.photos.forEach((p, i) => {
-    buttonsImg += `<button type="button" data-bs-target="#ci" data-bs-slide-to="${i}" class="active" aria-current="true" aria-label="Foto ${i+1}"></button>`;
+    buttonsImg += `<button type="button" data-bs-target="#${target}" data-bs-slide-to="${i}" class="active" aria-current="true" aria-label="Foto ${i+1}"></button>`;
     images += `<div class="carousel-item ${i === 0 ? 'active' : ''}"><img src="${p.path}" class="d-block ${p.style}" alt="${product.name}"></div>`;
   });
 
   const cardProduct = `
     <div class="card mt-3">
         <h5 class="card-header">
-            <div id="ci" class="carousel slide" data-bs-ride="carousel">
+            <div id="${target}" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     ${buttonsImg}
                 </div>
                 <div class="carousel-inner">
                     ${images}
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#ci"
+                <button class="carousel-control-prev" type="button" data-bs-target="#${target}"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#ci"
+                <button class="carousel-control-next" type="button" data-bs-target="#${target}"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>

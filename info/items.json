@@ -40,7 +40,16 @@
             "description": "Silla negra ergonómica, espaldar y roposa brazos ajustable, ajustable en altura",
             "price": "$ 100.000",
             "isSelled": true,
-            "photos": []
+            "photos": [
+                {
+                    "path": "img/silla/silla1.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/silla/silla2.jpg",
+                    "style": "w-50"
+                }
+            ]
         }
     ]
 }
