@@ -25,9 +25,9 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
-            "price": "$ ",
+            "name": "Artecma",
+            "description": "Mesa graduable 5 alturas, para portátil, monitor u otros usos de soporte.",
+            "price": "$ 50.000",
             "isSelled": false,
             "photos": [
                 {
@@ -37,9 +37,9 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
-            "price": "$ ",
+            "name": "Base Refrigerante",
+            "description": "Base refrigerante para portátil, con ventilador iluminado",
+            "price": "$ 20.000",
             "isSelled": false,
             "photos": [
                 {
@@ -77,9 +77,9 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
-            "price": "$ ",
+            "name": "Honeywell HZ-789",
+            "description": "Calentador de ambiente de aceite programable de tipo radiador",
+            "price": "$ 450.000",
             "isSelled": false,
             "photos": [
                 {
@@ -89,9 +89,9 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
-            "price": "$ 120.000",
+            "name": "Camara Kasa EC70",
+            "description": "Camara Kasa tp-link, con memoria micro-sd de 64GB, con función de grabar 24/7",
+            "price": "$ 110.000",
             "isSelled": false,
             "photos": [
                 {
@@ -101,9 +101,9 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
-            "price": "$ 100.000",
+            "name": "Camara Kasa KC110",
+            "description": "Camara Kasa tp-link, envía 20 segundos de video cada que detecta movimiento",
+            "price": "$ 90.000",
             "isSelled": false,
             "photos": [
                 {
@@ -141,9 +141,9 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
-            "price": "$ 2.000.000",
+            "name": "Lavadora/Secadora Samsung Q-Drive",
+            "description": "Q-Drive WD11N64FOOX Carga Frontal con Add Wash, 11.5 kg",
+            "price": "$ 1.900.000",
             "isSelled": false,
             "photos": [
                 {
@@ -157,9 +157,9 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
-            "price": "$ ",
+            "name": "Maleta de Viaje Totto",
+            "description": "Maleta grande de viaje marca Totto 48x28.5x78 cm",
+            "price": "$ 100.000",
             "isSelled": false,
             "photos": [
                 {
@@ -197,161 +197,129 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
-            "price": "$ ",
+            "name": "Mesa de Noche",
+            "description": "Mesa de noche color wengue",
+            "price": "$ 40.000",
             "isSelled": false,
             "photos": [
                 {
-                    "path": "img/.jpg",
-                    "style": "w-100"
-                },
-                {
-                    "path": "img/.jpg",
+                    "path": "img/mesa-noche-1.jpg",
                     "style": "w-100"
                 }
             ]
         },
         {
-            "name": "",
-            "description": "",
-            "price": "$ ",
+            "name": "Monitor LG 24MP68VQ",
+            "description": "Monitor LG 24\" IPS LED Full HD 1920 X 1080",
+            "price": "$ 250.000",
             "isSelled": false,
             "photos": [
                 {
-                    "path": "img/.jpg",
-                    "style": "w-100"
-                },
-                {
-                    "path": "img/.jpg",
+                    "path": "img/monitor1.jpg",
                     "style": "w-100"
                 }
             ]
         },
         {
-            "name": "",
-            "description": "",
-            "price": "$ ",
+            "name": "Mueble Televisor",
+            "description": "Mueble ideal para cuarto, tamaño alto: 70cm, ancho: 130cm, profundo: 39cm",
+            "price": "$ 150.000",
             "isSelled": false,
             "photos": [
                 {
-                    "path": "img/.jpg",
+                    "path": "img/mueble-tv-gris/mueble-tv-gris-1.jpg",
                     "style": "w-100"
                 },
                 {
-                    "path": "img/.jpg",
+                    "path": "img/mueble-tv-gris/mueble-tv-gris-2.jpg",
                     "style": "w-100"
                 }
             ]
         },
         {
-            "name": "",
-            "description": "",
-            "price": "$ ",
+            "name": "Centro de Entretenimiento",
+            "description": "Mueble ideal para sala, tamaño alto: 155cm, ancho: 180cm, profundo: 37cm",
+            "price": "$ 700.000",
             "isSelled": false,
             "photos": [
                 {
-                    "path": "img/.jpg",
-                    "style": "w-100"
-                },
-                {
-                    "path": "img/.jpg",
+                    "path": "img/mueble-tv-sala.jpg",
                     "style": "w-100"
                 }
             ]
         },
         {
-            "name": "",
-            "description": "",
-            "price": "$ ",
+            "name": "Kasa Smart Plug Power Strip =KP303",
+            "description": "Tres plugs controlables por Google Home, Alexa o directamente desde la aplicación Kasa y dos puertos USB",
+            "price": "$ 60.000",
             "isSelled": false,
             "photos": [
                 {
-                    "path": "img/.jpg",
-                    "style": "w-100"
-                },
-                {
-                    "path": "img/.jpg",
+                    "path": "img/multitoma-kasa.jpg",
                     "style": "w-100"
                 }
             ]
         },
         {
-            "name": "",
-            "description": "",
+            "name": "Nevera LG Congelador Inferior No Frost 446 lt LB45SPT",
+            "description": "Nevera LG cons soporte par LG ThinQ, se puede controlar la temperatura o cambiar al modo vacaciones desde el celular, o te televisores LG",
             "price": "$ ",
             "isSelled": false,
             "photos": [
                 {
-                    "path": "img/.jpg",
-                    "style": "w-100"
-                },
+                    "path": "img/nevera-1.jpg",
+                    "style": "w-75"
+                }
+            ]
+        },
+        {
+            "name": "Parlante Sony Extra Bass XB10",
+            "description": "Parlante bluetooth y soporta NFC para emparejar fácilmente el parlante con otros dispositibos",
+            "price": "$ 80.000",
+            "isSelled": false,
+            "photos": [
                 {
-                    "path": "img/.jpg",
+                    "path": "img/parlante-bt-1.jpg",
                     "style": "w-100"
                 }
             ]
         },
         {
-            "name": "",
-            "description": "",
-            "price": "$ ",
+            "name": "Perchero Aluminio",
+            "description": "Perchero con base para zapatos, graduable en altura",
+            "price": "$ 30.000",
             "isSelled": false,
             "photos": [
                 {
-                    "path": "img/.jpg",
-                    "style": "w-100"
-                },
-                {
-                    "path": "img/.jpg",
+                    "path": "img/perchero-1.jpg",
                     "style": "w-100"
                 }
             ]
         },
         {
-            "name": "",
-            "description": "",
-            "price": "$ ",
+            "name": "Plancha Oster",
+            "description": "Plancha a Vapor Oster Negra con Tecnología Aerocerámica Antiadherente",
+            "price": "$ 80.000",
             "isSelled": false,
             "photos": [
                 {
-                    "path": "img/.jpg",
+                    "path": "img/plancha/plancha-1.jpg",
                     "style": "w-100"
                 },
                 {
-                    "path": "img/.jpg",
+                    "path": "img/plancha/plancha-2.jpg",
                     "style": "w-100"
                 }
             ]
         },
         {
-            "name": "",
-            "description": "",
-            "price": "$ ",
+            "name": "TCL Purificador de aire para el hogar y dormitorio",
+            "description": "Control inteligente WiFi Alexa, True H13 HEPA filtro de aire elimina el 99.97% de olor a humo, caspa de mascotas, polvo, polen, diseño de metal con luz nocturna",
+            "price": "$ 150.000",
             "isSelled": false,
             "photos": [
                 {
-                    "path": "img/.jpg",
-                    "style": "w-100"
-                },
-                {
-                    "path": "img/.jpg",
-                    "style": "w-100"
-                }
-            ]
-        },
-        {
-            "name": "",
-            "description": "",
-            "price": "$ ",
-            "isSelled": false,
-            "photos": [
-                {
-                    "path": "img/.jpg",
-                    "style": "w-100"
-                },
-                {
-                    "path": "img/.jpg",
+                    "path": "img/purificador-aire-1.jpg",
                     "style": "w-100"
                 }
             ]
@@ -389,56 +357,48 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
-            "price": "$ ",
+            "name": "Sofá Cama Mirano con Pillow Tela Gris",
+            "description": "Madera Inmunizada, tamaño 190x95x90, tres posiciones de inclinación del espaldar",
+            "price": "$ 1.100.000",
             "isSelled": false,
             "photos": [
                 {
-                    "path": "img/.jpg",
-                    "style": "w-100"
-                },
-                {
-                    "path": "img/.jpg",
+                    "path": "img/sofa-cama-1.jpg",
                     "style": "w-100"
                 }
             ]
         },
         {
-            "name": "",
-            "description": "",
-            "price": "$ ",
+            "name": "Limpiadora a Vapor Presurizado KIATO",
+            "description": "Limpia con vapor presurizado cualquier parte de la casa, incluyendo muebles, con sus multiples accesorios",
+            "price": "$ 150.000",
             "isSelled": false,
             "photos": [
                 {
-                    "path": "img/.jpg",
-                    "style": "w-100"
-                },
-                {
-                    "path": "img/.jpg",
+                    "path": "img/steam-cleaner-1.jpg",
                     "style": "w-100"
                 }
             ]
         },
         {
-            "name": "",
-            "description": "",
-            "price": "$ ",
+            "name": "Teclado Logitech G413 Carbon",
+            "description": "Teclado mecánico con retroiluminación ideal para juegos",
+            "price": "$ 200.000",
             "isSelled": false,
             "photos": [
                 {
-                    "path": "img/.jpg",
+                    "path": "img/teclado/teclado-1.jpg",
                     "style": "w-100"
                 },
                 {
-                    "path": "img/.jpg",
+                    "path": "img/teclado/teclado-2.jpg",
                     "style": "w-100"
                 }
             ]
         },
         {
-            "name": "Televisor LG OLED",
-            "description": "---",
+            "name": "TV LG 55\" Pulgadas 139cm OLED55B9 4K-UHD OLED",
+            "description": "Pantalla OLED ultra-delgada, cuenta con IA, Sonido Dolby Atmos y Dolby Vision para Imagen, su procesador inteligente trabaja para una imagen y sonido mejorada, magic remote, tiene 4 puertos HDMI 2.1",
             "price": "$ 2.000.000",
             "isSelled": false,
             "photos": [
@@ -449,8 +409,8 @@
             ]
         },
         {
-            "name": "Televisor LG OLED",
-            "description": "---",
+            "name": "TV LG 55\" Pulgadas 139cm OLED55CX 4K-UHD OLED",
+            "description": "Pantalla OLED ultra-delgada, cuenta con IA, Sonido Dolby Atmos y Dolby Vision IQ para Imagen, compatible con NVIDIA G-SYNC, su procesador inteligente trabaja para una imagen y sonido mejorada, magic remote, tiene 4 puertos HDMI 2.1",
             "price": "$ 2.500.000",
             "isSelled": false,
             "photos": [
@@ -461,49 +421,41 @@
             ]
         },
         {
-            "name": "",
-            "description": "",
-            "price": "$ ",
+            "name": "Logitech Z906",
+            "description": "Altavoces Logitech Z906 5.1 Sonido Envolvente THX",
+            "price": "$ 600.000",
             "isSelled": false,
             "photos": [
                 {
-                    "path": "img/.jpg",
+                    "path": "img/z906/z906-1.jpg",
                     "style": "w-100"
                 },
                 {
-                    "path": "img/.jpg",
+                    "path": "img/z906/z906-2.jpeg",
                     "style": "w-100"
                 }
             ]
         },
         {
-            "name": "",
-            "description": "",
-            "price": "$ ",
+            "name": "Zapatero MDF",
+            "description": "Zapatero en aglomerado MDF, tamaño 60x30 cm",
+            "price": "$ 40.000",
             "isSelled": false,
             "photos": [
                 {
-                    "path": "img/.jpg",
-                    "style": "w-100"
-                },
-                {
-                    "path": "img/.jpg",
+                    "path": "img/zapatero-mad-1.jpg",
                     "style": "w-100"
                 }
             ]
         },
         {
-            "name": "",
-            "description": "",
-            "price": "$ ",
+            "name": "Zapatero Aluminio",
+            "description": "Zapatero en aluminio apilable, tamaño 89x33 cm",
+            "price": "$ 80.000",
             "isSelled": false,
             "photos": [
                 {
-                    "path": "img/.jpg",
-                    "style": "w-100"
-                },
-                {
-                    "path": "img/.jpg",
+                    "path": "img/zapatero-met-1.jpg",
                     "style": "w-100"
                 }
             ]
