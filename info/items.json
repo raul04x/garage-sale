@@ -61,6 +61,22 @@
             ]
         },
         {
+            "name": "Silla Clic Clac Carvallo Lux Tela Gris",
+            "description": "Silla clic clack que permite recostar el espaldar para acostarse o expandir los puestos disponibles para visita.",
+            "price": "$ 450.000",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/silla-clic-clac/silla-clic-clac-1.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/silla-clic-clac/silla-clic-clac-2.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
             "name": "Televisor LG OLED",
             "description": "---",
             "price": "$ 2.000.000",
