@@ -18,14 +18,11 @@ function drawProducts(index, product) {
   product.id = index;
 
   product.photos.forEach((p, i) => {
-    buttonsImg += `<button type="button" data-bs-target="#${target}" data-bs-slide-to="${i}" class="active" aria-current="true" aria-label="Foto ${
-      i + 1
-    }"></button>`;
-    images += `<div class="carousel-item ${
-      i === 0 ? "active" : ""
-    }"><img src="${p.path}" class="d-block ${p.style}" alt="${
-      product.name
-    }"></div>`;
+    buttonsImg += `<button type="button" data-bs-target="#${target}" data-bs-slide-to="${i}" class="active" aria-current="true" aria-label="Foto ${i + 1
+      }"></button>`;
+    images += `<div class="carousel-item ${i === 0 ? "active" : ""
+      }"><img src="${p.path}" class="d-block ${p.style}" alt="${product.name
+      }"></div>`;
   });
 
   const cardProduct = `
@@ -59,11 +56,10 @@ function drawProducts(index, product) {
               ${product.description} <br />
               <span ${product.isSelled ? "text-decoration-line-through" : ""}"><span class="fw-bold">Precio:</span> ${product.price}</span>
             </span>
-            ${
-              product.isSelled
-                ? ""
-                : `<button onclick="addItem(${product.id})" class="btn btn-success float-end"><i class="fa-solid fa-cart-plus"></i></button>`
-            }
+            ${product.isSelled
+      ? ""
+      : `<button onclick="addItem(${product.id})" class="btn btn-success float-end"><i class="fa-solid fa-cart-plus"></i></button>`
+    }
           </div>
         </div>
     </div>
@@ -100,12 +96,38 @@ function setNumberItems() {
 }
 
 function displayMyItems() {
+  $("#divItemsInCart").empty();
   let items = myItems.length > 0 ? "A continuación se listan sus productos:" : "";
   myItems.forEach((p, i) => {
-    items += `<p><strong>${i + 1})</strong> ${p.name} (${p.price})</p>`;
+    items += `<div><strong>${i + 1})</strong> ${p.name} (${p.price})</div>`;
   });
 
   if (items) {
-    toastr.success(items);
+    $("#divItemsInCart").append(items);
+  }
+  else {
+    $("#divItemsInCart").text("No hay artículos en el carrito");
+  }
+}
+
+function copyItems() {
+  let items = '';
+
+  myItems.forEach((p, i) => {
+    items += `${i + 1}) ${p.name} (${p.price}) \n`;
+  });
+
+  if (items) {
+    const el = document.createElement('textarea');
+    el.value = items;
+    el.setAttribute('readonly', '');
+    el.style.position = 'absolute';
+    el.style.left = '-9999px';
+    document.body.appendChild(el);
+    el.select();
+    console.log(document.execCommand('copy'));
+    document.body.removeChild(el);
+
+    toastr.success(`Se ha copiado los artículos agregados al carrito, ahora puedes enviarme un mensaje con los artículos deseados!`);
   }
 }
