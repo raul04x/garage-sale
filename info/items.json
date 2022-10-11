@@ -1,6 +1,54 @@
 {
     "products": [
         {
+            "name": "Amazon Fire Stick 4k",
+            "description": "Amazon Fire Stick 4k 2da generación con control remoto por voz",
+            "price": "$ 80.000",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/amz-fire-stick-1.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "Aspiradora BLACK+DECKER",
+            "description": "Potente aspiradora con sistema multi-ciclónico, modelo VCBD8090 Power, color rojo",
+            "price": "$ 200.000",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/aspiradora-1.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "price": "$ ",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/base-monitor-1.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "price": "$ ",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/base-refri-1.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
             "name": "Bicicleta Todo Terreno",
             "description": "Bicicleta marco STL en aluminio, cambios shimano, frenos de disco, cableado interno",
             "price": "$ 1.000.000",
@@ -29,6 +77,42 @@
             ]
         },
         {
+            "name": "",
+            "description": "",
+            "price": "$ ",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/calentador-ambiente-1.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "price": "$ 120.000",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/camara-1.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "price": "$ 100.000",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/camara-1.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
             "name": "Cámara Sony DSC-HX400V",
             "description": "Cámara digital compacta con zoom óptico de 50x, maleta de cargar, careta de cuero y abrazadera, con 3 memorias SD (64GB, 16GB y 8GB)",
             "price": "$ 1.200.000",
@@ -40,6 +124,234 @@
                 },
                 {
                     "path": "img/camara-sony/camara-sony-2.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "Canecas 65lts 80x100 cm",
+            "description": "Canecas para almacenar ropa, o cualquier otra cosa",
+            "price": "$ 30.000 c/u",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/canecas-1.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "price": "$ 2.000.000",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/lavadora/lavadora1.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/lavadora/lavadora2.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "price": "$ ",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/maleta/maleta1.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/maleta/maleta2.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "Escritorio New York",
+            "description": "Escritorio en vidrio templado, foto the New York, tiene 2 cajones, color blanco, estructura en aluminio, tamaño 105cm por 58cm",
+            "price": "$ 150.000",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/mesa-1.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "Escritorio Pequeño",
+            "description": "Escritorio práctico color wengue, con cajón, compartimento, tamaño 80cm por 45cm",
+            "price": "$ 50.000",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/mesa-laptop-1.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "price": "$ ",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "price": "$ ",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "price": "$ ",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "price": "$ ",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "price": "$ ",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "price": "$ ",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "price": "$ ",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "price": "$ ",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "price": "$ ",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "price": "$ ",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/.jpg",
                     "style": "w-100"
                 }
             ]
@@ -77,6 +389,54 @@
             ]
         },
         {
+            "name": "",
+            "description": "",
+            "price": "$ ",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "price": "$ ",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "price": "$ ",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
             "name": "Televisor LG OLED",
             "description": "---",
             "price": "$ 2.000.000",
@@ -84,6 +444,66 @@
             "photos": [
                 {
                     "path": "img/tele-1.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "Televisor LG OLED",
+            "description": "---",
+            "price": "$ 2.500.000",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/tele-2.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "price": "$ ",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "price": "$ ",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "",
+            "description": "",
+            "price": "$ ",
+            "isSelled": false,
+            "photos": [
+                {
+                    "path": "img/.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/.jpg",
                     "style": "w-100"
                 }
             ]

@@ -51,14 +51,20 @@ function drawProducts(index, product) {
           ${product.isSelled ? vendida : ""}
         </h5>
         <div class="card-body">
-          <h5 class="card-title">${product.name}</h5>
-          <p class="card-text">${product.description}</p>
-          <p class="card-text ${product.isSelled ? "text-decoration-line-through" : ""}"><span class="fw-bold">Precio:</span> ${product.price}</p>
-          ${
-            product.isSelled
-              ? ""
-              : `<button onclick="addItem(${product.id})" class="btn btn-success"><i class="fa-solid fa-cart-plus"></i></button>`
-          }
+          <h5 class="card-title">
+            ${product.name}
+          </h5>
+          <div class="card-text">
+            <span class="float-start">
+              ${product.description} <br />
+              <span ${product.isSelled ? "text-decoration-line-through" : ""}"><span class="fw-bold">Precio:</span> ${product.price}</span>
+            </span>
+            ${
+              product.isSelled
+                ? ""
+                : `<button onclick="addItem(${product.id})" class="btn btn-success float-end"><i class="fa-solid fa-cart-plus"></i></button>`
+            }
+          </div>
         </div>
     </div>
   </div>`;
