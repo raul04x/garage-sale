@@ -43,7 +43,7 @@
             "name": "Base Refrigerante",
             "description": "Base refrigerante para portátil, con ventilador iluminado",
             "price": 20000,
-            "isSelled": false,
+            "isSelled": true,
             "buyer": "Jhoana",
             "photos": [
                 {
