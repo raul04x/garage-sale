@@ -227,8 +227,8 @@
             "name": "Monitor LG 24MP68VQ",
             "description": "Monitor LG 24\" IPS LED Full HD 1920 X 1080",
             "price": 250000,
-            "isSelled": false,
-            "buyer": "",
+            "isSelled": true,
+            "buyer": "Luz",
             "photos": [
                 {
                     "path": "img/monitor1.jpg",
