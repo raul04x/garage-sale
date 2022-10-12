@@ -102,7 +102,7 @@
         },
         {
             "name": "Camara Kasa KC110",
-            "description": "Camara Kasa tp-link, envía 20 segundos de video cada que detecta movimiento",
+            "description": "Camara Kasa tp-link, envía 20 segundos de video cada que detecta movimiento a la nube",
             "price": "$ 90.000",
             "isSelled": false,
             "photos": [
@@ -263,7 +263,7 @@
         {
             "name": "Nevera LG Congelador Inferior No Frost 446 lt LB45SPT",
             "description": "Nevera LG cons soporte par LG ThinQ, se puede controlar la temperatura o cambiar al modo vacaciones desde el celular, o te televisores LG",
-            "price": "$ ",
+            "price": "$ 2.200.000",
             "isSelled": false,
             "photos": [
                 {

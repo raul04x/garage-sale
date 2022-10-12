@@ -83,6 +83,8 @@ function addItem(id) {
 
 function removeItem(id) {
   myItems = myItems.filter((i) => i.id !== id);
+  $(`#item-${id}`).remove();
+  setVisibleFooter();
   setNumberItems();
 }
 
@@ -92,25 +94,51 @@ function setNumberItems() {
     $("#spItems").text(myItems.length);
   } else {
     $("#spItems").addClass("invisible");
+    setEmptyMessage();
   }
 }
 
 function displayMyItems() {
+  setVisibleFooter();
   $("#divItemsInCart").empty();
-  let items = myItems.length > 0 ? "A continuación se listan sus productos:" : "";
+  let items = "";
   myItems.forEach((p, i) => {
-    items += `<div><strong>${i + 1})</strong> ${p.name} (${p.price})</div>`;
+    items += `<li id="item-${p.id}" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+      <div class="w-25">
+        <img class="img-fluid" src="${p.photos[0].path}" alt="${p.name}">
+      </div>
+      <div class="ms-2 me-auto">
+        <div class="fw-bold">${p.name}</div> ${p.price}
+      </div>
+      <button class="btn btn-sm btn-danger">
+        <i class="fa-solid fa-trash" onclick="removeItem(${p.id})"></i>
+      </button>
+    </li>`;
   });
 
   if (items) {
-    $("#divItemsInCart").append(items);
+    $("#divItemsInCart").append(`<ul class="list-group">${items}</ul>`);
   }
   else {
-    $("#divItemsInCart").text("No hay artículos en el carrito");
+    setEmptyMessage();
   }
 }
 
-function copyItems() {
+function setEmptyMessage() {
+  $("#divItemsInCart").empty();
+  $("#divItemsInCart").text("No hay artículos en el carrito");
+}
+
+function setVisibleFooter() {
+  if (myItems) {
+    myItems.length > 0 ? $("#modalFooter").removeClass("invisible") : $("#modalFooter").addClass("invisible");
+  }
+  else {
+    $("#modalFooter").removeClass("invisible");
+  }
+}
+
+function downloadItems() {
   let items = '';
 
   myItems.forEach((p, i) => {
@@ -118,16 +146,13 @@ function copyItems() {
   });
 
   if (items) {
-    const el = document.createElement('textarea');
-    el.value = items;
-    el.setAttribute('readonly', '');
-    el.style.position = 'absolute';
-    el.style.left = '-9999px';
-    document.body.appendChild(el);
-    el.select();
-    console.log(document.execCommand('copy'));
-    document.body.removeChild(el);
-
-    toastr.success(`Se ha copiado los artículos agregados al carrito, ahora puedes enviarme un mensaje con los artículos deseados!`);
+    let element = document.createElement('a');
+    element.setAttribute("href", "data:text/plain;charset=utf-8," + encodeURIComponent(items));
+    element.setAttribute("download", `my-products-${(new Date()).toISOString().replace(":", "").replace(".", "") }.txt`);
+    element.style.display = "none";
+    document.body.appendChild(element);
+    element.click();
+    document.body.removeChild(element);
+    toastr.success(`Se ha creado un archivo con los artículos agregados al carrito, ahora puedes enviarme un mensaje con los artículos deseados!`);
   }
 }

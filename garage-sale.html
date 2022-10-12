@@ -62,7 +62,7 @@
         </div>
     </main>
     <div class="modal fade" id="modalCart" tabindex="-1" aria-labelledby="modalCartLabel" aria-hidden="true">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal-dialog-scrollable">
             <div class="modal-content">
                 <div class="modal-header">
                     <h1 class="modal-title fs-5" id="modalCartLabel">Artículos en el Carrito</h1>
@@ -72,14 +72,9 @@
                     <div id="divItemsInCart">
                     </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                        <i class="fa-regular fa-circle-xmark"></i>
-                        Cerrar
-                    </button>
-                    <button type="button" class="btn btn-primary" onclick="copyItems()">
-                        <i class="fa-regular fa-copy"></i>
-                        Copiar Artículos
+                <div id="modalFooter" class="modal-footer">
+                    <button type="button" class="btn btn-info" onclick="downloadItems()">
+                        <i class="fa-solid fa-download"></i>
                     </button>
                 </div>
             </div>
