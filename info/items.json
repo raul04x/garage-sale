@@ -472,8 +472,8 @@
             "name": "Zapatero MDF",
             "description": "Zapatero en aglomerado MDF, tamaño 60x30 cm",
             "price": 40000,
-            "isSelled": false,
-            "buyer": "",
+            "isSelled": true,
+            "buyer": "Luz",
             "photos": [
                 {
                     "path": "img/zapatero-mad-1.jpg",
