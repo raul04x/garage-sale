@@ -4,8 +4,8 @@
             "name": "Amazon Fire Stick 4k",
             "description": "Amazon Fire Stick 4k 2da generación con control remoto por voz",
             "price": 80000,
-            "isSelled": false,
-            "buyer": "",
+            "isSelled": true,
+            "buyer": "Diego",
             "photos": [
                 {
                     "path": "img/amz-fire-stick-1.jpg",
@@ -17,8 +17,8 @@
             "name": "Aspiradora BLACK+DECKER",
             "description": "Potente aspiradora con sistema multi-ciclónico, modelo VCBD8090 Power, color rojo",
             "price": 200000,
-            "isSelled": false,
-            "buyer": "",
+            "isSelled": true,
+            "buyer": "Victor",
             "photos": [
                 {
                     "path": "img/aspiradora-1.jpg",
@@ -98,8 +98,8 @@
             "name": "Camara Kasa EC70",
             "description": "Camara Kasa tp-link, con memoria micro-sd de 64GB, con función de grabar 24/7",
             "price": 110000,
-            "isSelled": false,
-            "buyer": "",
+            "isSelled": true,
+            "buyer": "Cintis",
             "photos": [
                 {
                     "path": "img/camara-1.jpg",
@@ -111,8 +111,8 @@
             "name": "Camara Kasa KC110",
             "description": "Camara Kasa tp-link, envía 20 segundos de video cada que detecta movimiento a la nube",
             "price": 90000,
-            "isSelled": false,
-            "buyer": "",
+            "isSelled": true,
+            "buyer": "Cintis",
             "photos": [
                 {
                     "path": "img/camara-1.jpg",
@@ -214,8 +214,8 @@
             "name": "Mesa de Noche",
             "description": "Mesa de noche color wengue",
             "price": 40000,
-            "isSelled": false,
-            "buyer": "",
+            "isSelled": true,
+            "buyer": "Diego",
             "photos": [
                 {
                     "path": "img/mesa-noche-1.jpg",
@@ -309,8 +309,8 @@
             "name": "Perchero Aluminio",
             "description": "Perchero con base para zapatos, graduable en altura",
             "price": 30000,
-            "isSelled": false,
-            "buyer": "",
+            "isSelled": true,
+            "buyer": "Cintis",
             "photos": [
                 {
                     "path": "img/perchero-1.jpg",
@@ -485,8 +485,8 @@
             "name": "Zapatero Aluminio",
             "description": "Zapatero en aluminio apilable, tamaño 89x33 cm",
             "price": 80000,
-            "isSelled": false,
-            "buyer": "",
+            "isSelled": true,
+            "buyer": "Cintis",
             "photos": [
                 {
                     "path": "img/zapatero-met-1.jpg",
