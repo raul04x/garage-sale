@@ -44,7 +44,7 @@
             "description": "Base refrigerante para portátil, con ventilador iluminado",
             "price": 20000,
             "isSelled": false,
-            "buyer": "",
+            "buyer": "Jhoana",
             "photos": [
                 {
                     "path": "img/base-refri-1.jpg",

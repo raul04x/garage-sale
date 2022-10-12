@@ -1,11 +1,60 @@
 var myItems = [];
 var items = [];
+
 const formatterPrice = new Intl.NumberFormat('en-US', {
   style: 'currency',
   currency: 'USD',
   minimumFractionDigits: 0,
   maximumFractionDigits: 0
 });
+
+const getTemplateItemInCart = (products, isBuyerView = false) => {
+  let template = '';
+
+  products.forEach(p => {
+    template += `<li id="item-${p.id}" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+      <div class="w-25">
+        <img class="img-fluid" src="${p.photos[0].path}" alt="${p.name}">
+      </div>
+      <div class="ms-2 me-auto">
+        <div class="fw-bold">${p.name}</div>
+        ${isBuyerView ? `<small>${p.description}</small>` : ''}
+        ${formatterPrice.format(p.price)}
+      </div>
+      ${isBuyerView ? '' : `<button class="btn btn-sm btn-danger"><i class="fa-solid fa-trash" onclick="removeItem(${p.id})"></i></button>`}
+    </li>`;
+  });
+
+  return template;
+}
+
+const listBuyers = () => {
+  let searchParams = new URLSearchParams(window.location.search);
+  let buyer = searchParams.get('buyer');
+  let info = '';
+
+  if (buyer && buyer === 'all-admin') {
+    let buyers = new Set();
+    items.filter(p => p.buyer).forEach(p => {
+      buyers.add(p.buyer);
+    });
+    buyers.forEach(b => info += getBuyerItems(b));
+  }
+  else if (buyer) {
+    info = getBuyerItems(buyer);
+  }
+
+  $('#divBuyerItems').append(`<ul class="list-group">${info}</ul>`);
+}
+
+const getBuyerItems = (buyer) => {
+  let itemsBuyer = '';
+  const filtered = items.filter(i => i.buyer === buyer);
+  const value = formatterPrice.format(filtered.reduce((acc, val) => acc += val.price, 0));
+  itemsBuyer = `<li class="list-group-item list-group-item-warning d-flex justify-content-between align-items-start"><h5>${buyer}</h5><span>Total: ${value}</span></li>`;
+  itemsBuyer += getTemplateItemInCart(filtered, true);
+  return itemsBuyer;
+}
 
 toastr.options.preventDuplicates = true;
 toastr.options.progressBar = true;
@@ -19,6 +68,10 @@ toastr.info(
 $.getJSON('info/items.json', (data) => {
   data.products.forEach((p, i) => drawProducts(i, p));
   items = data.products;
+
+  if (window.location.pathname === '/garage-buyers.html') {
+    listBuyers();
+  }
 });
 
 function drawProducts(index, product) {
@@ -116,20 +169,7 @@ function setNumberItems() {
 function displayMyItems() {
   setVisibleFooter();
   $('#divItemsInCart').empty();
-  let items = '';
-  myItems.forEach((p, i) => {
-    items += `<li id="item-${p.id}" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
-      <div class="w-25">
-        <img class="img-fluid" src="${p.photos[0].path}" alt="${p.name}">
-      </div>
-      <div class="ms-2 me-auto">
-        <div class="fw-bold">${p.name}</div> ${formatterPrice.format(p.price)}
-      </div>
-      <button class="btn btn-sm btn-danger">
-        <i class="fa-solid fa-trash" onclick="removeItem(${p.id})"></i>
-      </button>
-    </li>`;
-  });
+  let items = getTemplateItemInCart(myItems);
 
   if (items) {
     $('#divItemsInCart').append(`<ul class="list-group">${items}</ul>`);
@@ -155,13 +195,13 @@ function setVisibleFooter() {
 }
 
 function downloadItems() {
-  let items = '';
+  let downloadItems = '';
 
   myItems.forEach((p, i) => {
-    items += `${i + 1})\t${formatterPrice.format(p.price).padStart(10, ' ')}\t${p.name}\n`;
+    downloadItems += `${i + 1})\t${formatterPrice.format(p.price).padStart(10, ' ')}\t${p.name}\n`;
   });
 
-  if (items) {
+  if (downloadItems) {
     let fileName = `my-products-${(new Date()).toISOString().replace(":", "").replace(".", "")}.txt`;
     let btnDownload = document.createElement('a');
     btnDownload.setAttribute('href', `data:text/plain;charset=utf-8,${encodeURIComponent(items)}`);
