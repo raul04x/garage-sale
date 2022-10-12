@@ -5,6 +5,7 @@
             "description": "Amazon Fire Stick 4k 2da generación con control remoto por voz",
             "price": 80000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/amz-fire-stick-1.jpg",
@@ -17,6 +18,7 @@
             "description": "Potente aspiradora con sistema multi-ciclónico, modelo VCBD8090 Power, color rojo",
             "price": 200000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/aspiradora-1.jpg",
@@ -28,7 +30,8 @@
             "name": "Artecma",
             "description": "Mesa graduable 5 alturas, para portátil, monitor u otros usos de soporte.",
             "price": 50000,
-            "isSelled": false,
+            "isSelled": true,
+            "buyer": "Fernando",
             "photos": [
                 {
                     "path": "img/base-monitor-1.jpg",
@@ -41,6 +44,7 @@
             "description": "Base refrigerante para portátil, con ventilador iluminado",
             "price": 20000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/base-refri-1.jpg",
@@ -53,6 +57,7 @@
             "description": "Bicicleta marco STL en aluminio, cambios shimano, frenos de disco, cableado interno",
             "price": 1000000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/bici/bici-01.jpg",
@@ -81,6 +86,7 @@
             "description": "Calentador de ambiente de aceite programable de tipo radiador",
             "price": 450000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/calentador-ambiente-1.jpg",
@@ -93,6 +99,7 @@
             "description": "Camara Kasa tp-link, con memoria micro-sd de 64GB, con función de grabar 24/7",
             "price": 110000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/camara-1.jpg",
@@ -105,6 +112,7 @@
             "description": "Camara Kasa tp-link, envía 20 segundos de video cada que detecta movimiento a la nube",
             "price": 90000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/camara-1.jpg",
@@ -117,6 +125,7 @@
             "description": "Cámara digital compacta con zoom óptico de 50x, maleta de cargar, careta de cuero y abrazadera, con 3 memorias SD (64GB, 16GB y 8GB)",
             "price": 1200000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/camara-sony/camara-sony-1.jpg",
@@ -133,6 +142,7 @@
             "description": "Canecas para almacenar ropa, o cualquier otra cosa ($30,000 c/u)",
             "price": 50000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/canecas-1.jpg",
@@ -145,6 +155,7 @@
             "description": "Q-Drive WD11N64FOOX Carga Frontal con Add Wash, 11.5 kg",
             "price": 1900000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/lavadora/lavadora1.jpg",
@@ -161,6 +172,7 @@
             "description": "Maleta grande de viaje marca Totto 48x28.5x78 cm",
             "price": 100000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/maleta/maleta1.jpg",
@@ -177,6 +189,7 @@
             "description": "Escritorio en vidrio templado, foto the New York, tiene 2 cajones, color blanco, estructura en aluminio, tamaño 105cm por 58cm",
             "price": 150000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/mesa-1.jpg",
@@ -189,6 +202,7 @@
             "description": "Escritorio práctico color wengue, con cajón, compartimento, tamaño 80cm por 45cm",
             "price": 50000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/mesa-laptop-1.jpg",
@@ -201,6 +215,7 @@
             "description": "Mesa de noche color wengue",
             "price": 40000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/mesa-noche-1.jpg",
@@ -213,6 +228,7 @@
             "description": "Monitor LG 24\" IPS LED Full HD 1920 X 1080",
             "price": 250000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/monitor1.jpg",
@@ -225,6 +241,7 @@
             "description": "Mueble ideal para cuarto, tamaño alto: 70cm, ancho: 130cm, profundo: 39cm",
             "price": 150000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/mueble-tv-gris/mueble-tv-gris-1.jpg",
@@ -241,6 +258,7 @@
             "description": "Mueble ideal para sala, tamaño alto: 155cm, ancho: 180cm, profundo: 37cm",
             "price": 700000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/mueble-tv-sala.jpg",
@@ -249,10 +267,11 @@
             ]
         },
         {
-            "name": "Kasa Smart Plug Power Strip =KP303",
+            "name": "Kasa Smart Plug Power Strip KP303",
             "description": "Tres plugs controlables por Google Home, Alexa o directamente desde la aplicación Kasa y dos puertos USB",
             "price": 60000,
-            "isSelled": false,
+            "isSelled": true,
+            "buyer": "Fernando",
             "photos": [
                 {
                     "path": "img/multitoma-kasa.jpg",
@@ -265,6 +284,7 @@
             "description": "Nevera LG cons soporte par LG ThinQ, se puede controlar la temperatura o cambiar al modo vacaciones desde el celular, o te televisores LG",
             "price": 2200000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/nevera-1.jpg",
@@ -277,6 +297,7 @@
             "description": "Parlante bluetooth y soporta NFC para emparejar fácilmente el parlante con otros dispositibos",
             "price": 80000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/parlante-bt-1.jpg",
@@ -289,6 +310,7 @@
             "description": "Perchero con base para zapatos, graduable en altura",
             "price": 30000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/perchero-1.jpg",
@@ -301,6 +323,7 @@
             "description": "Plancha a Vapor Oster Negra con Tecnología Aerocerámica Antiadherente",
             "price": 80000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/plancha/plancha-1.jpg",
@@ -316,7 +339,8 @@
             "name": "TCL Purificador de aire para el hogar y dormitorio",
             "description": "Control inteligente WiFi Alexa, True H13 HEPA filtro de aire elimina el 99.97% de olor a humo, caspa de mascotas, polvo, polen, diseño de metal con luz nocturna",
             "price": 150000,
-            "isSelled": false,
+            "isSelled": true,
+            "buyer": "Fernando",
             "photos": [
                 {
                     "path": "img/purificador-aire-1.jpg",
@@ -329,6 +353,7 @@
             "description": "Silla negra ergonómica, espaldar y roposa brazos ajustable, ajustable en altura",
             "price": 100000,
             "isSelled": true,
+            "buyer": "Karu",
             "photos": [
                 {
                     "path": "img/silla/silla1.jpg",
@@ -345,6 +370,7 @@
             "description": "Silla clic clack que permite recostar el espaldar para acostarse o expandir los puestos disponibles para visita.",
             "price": 450000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/silla-clic-clac/silla-clic-clac-1.jpg",
@@ -361,6 +387,7 @@
             "description": "Madera Inmunizada, tamaño 190x95x90, tres posiciones de inclinación del espaldar",
             "price": 1100000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/sofa-cama-1.jpg",
@@ -372,7 +399,8 @@
             "name": "Limpiadora a Vapor Presurizado KIATO",
             "description": "Limpia con vapor presurizado cualquier parte de la casa, incluyendo muebles, con sus multiples accesorios",
             "price": 150000,
-            "isSelled": false,
+            "isSelled": true,
+            "buyer": "Fernando",
             "photos": [
                 {
                     "path": "img/steam-cleaner-1.jpg",
@@ -385,6 +413,7 @@
             "description": "Teclado mecánico con retroiluminación ideal para juegos",
             "price": 200000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/teclado/teclado-1.jpg",
@@ -401,6 +430,7 @@
             "description": "Pantalla OLED ultra-delgada, cuenta con IA, Sonido Dolby Atmos y Dolby Vision para Imagen, su procesador inteligente trabaja para una imagen y sonido mejorada, magic remote, tiene 4 puertos HDMI 2.1",
             "price": 2000000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/tele-1.jpg",
@@ -413,6 +443,7 @@
             "description": "Pantalla OLED ultra-delgada, cuenta con IA, Sonido Dolby Atmos y Dolby Vision IQ para Imagen, compatible con NVIDIA G-SYNC, su procesador inteligente trabaja para una imagen y sonido mejorada, magic remote, tiene 4 puertos HDMI 2.1",
             "price": 2500000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/tele-2.jpg",
@@ -425,6 +456,7 @@
             "description": "Altavoces Logitech Z906 5.1 Sonido Envolvente THX",
             "price": 600000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/z906/z906-1.jpg",
@@ -441,6 +473,7 @@
             "description": "Zapatero en aglomerado MDF, tamaño 60x30 cm",
             "price": 40000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/zapatero-mad-1.jpg",
@@ -453,6 +486,7 @@
             "description": "Zapatero en aluminio apilable, tamaño 89x33 cm",
             "price": 80000,
             "isSelled": false,
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/zapatero-met-1.jpg",

@@ -72,7 +72,7 @@ function drawProducts(index, product) {
           <div class="card-text">
             <span class="float-start">
               ${product.description} <br />
-              <span ${product.isSelled ? "text-decoration-line-through" : ""}"><span class="fw-bold">Precio:</span> ${formatterPrice.format(product.price)}</span>
+              <span ${product.isSelled ? 'class="text-decoration-line-through' : ''}"><span class="fw-bold">Precio:</span> ${formatterPrice.format(product.price)}</span>
             </span>
             ${product.isSelled ? "" : `<button onclick="addItem(${product.id})" class="btn btn-success float-end"><i class="fa-solid fa-cart-plus"></i></button>`}
           </div>
