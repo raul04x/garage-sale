@@ -33,8 +33,6 @@ const listBuyers = () => {
   let buyer = searchParams.get('buyer');
   let info = '';
 
-  console.log('Buyer/> ', buyer);
-
   if (buyer && buyer === 'all-admin') {
     let buyers = new Set();
     items.filter(p => p.buyer).forEach(p => {
@@ -70,10 +68,7 @@ toastr.info(
 $.getJSON('info/items.json', (data) => {
   data.products.forEach((p, i) => drawProducts(i, p));
   items = data.products;
-
-  console.log('/> ', window.location.pathname);
-
-  if (window.location.pathname === '/garage-buyers.html') {
+  if (window.location.pathname.includes('garage-buyers.html')) {
     listBuyers();
   }
 });
