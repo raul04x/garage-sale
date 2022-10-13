@@ -85,8 +85,8 @@
             "name": "Honeywell HZ-789",
             "description": "Calentador de ambiente de aceite programable de tipo radiador",
             "price": 450000,
-            "isSelled": false,
-            "buyer": "",
+            "isSelled": true,
+            "buyer": "Rafa",
             "photos": [
                 {
                     "path": "img/calentador-ambiente-1.jpg",

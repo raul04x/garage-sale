@@ -66,8 +66,8 @@ toastr.info(
 );
 
 $.getJSON('info/items.json', (data) => {
-  data.products.forEach((p, i) => drawProducts(i, p));
-  items = data.products;
+  items = data.products.sort((i1, i2) => i1.isSelled - i2.isSelled);
+  items.forEach((p, i) => drawProducts(i, p));
   if (window.location.pathname.includes('garage-buyers.html')) {
     listBuyers();
   }
@@ -79,7 +79,7 @@ function drawProducts(index, product) {
   let carouselButtons = '';
 
   const target = `ci-${index}`;
-  const vendida = '<span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-success">Vendida</span>';
+  const vendida = '<span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-success">Producto Vendido</span>';
   product.id = index;
 
   product.photos.forEach((p, i) => {
@@ -168,10 +168,10 @@ function setNumberItems() {
 function displayMyItems() {
   setVisibleFooter();
   $('#divItemsInCart').empty();
-  let items = getTemplateItemInCart(myItems);
+  let template = getTemplateItemInCart(myItems);
 
-  if (items) {
-    $('#divItemsInCart').append(`<ul class="list-group">${items}</ul>`);
+  if (template) {
+    $('#divItemsInCart').append(`<ul class="list-group">${template}</ul>`);
   }
   else {
     setEmptyMessage();
