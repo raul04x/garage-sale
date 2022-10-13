@@ -369,8 +369,8 @@
             "name": "Silla Clic Clac Carvallo Lux Tela Gris",
             "description": "Silla clic clack que permite recostar el espaldar para acostarse o expandir los puestos disponibles para visita.",
             "price": 450000,
-            "isSelled": false,
-            "buyer": "",
+            "isSelled": true,
+            "buyer": "Juan",
             "photos": [
                 {
                     "path": "img/silla-clic-clac/silla-clic-clac-1.jpg",
@@ -386,8 +386,8 @@
             "name": "Sofá Cama Mirano con Pillow Tela Gris",
             "description": "Madera Inmunizada, tamaño 190x95x90, tres posiciones de inclinación del espaldar",
             "price": 1100000,
-            "isSelled": false,
-            "buyer": "",
+            "isSelled": true,
+            "buyer": "Juan",
             "photos": [
                 {
                     "path": "img/sofa-cama-1.jpg",
