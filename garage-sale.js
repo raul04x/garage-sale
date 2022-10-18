@@ -80,8 +80,14 @@ toastr.info(
 );
 
 $.getJSON('info/items.json', (data) => {
-  items = data.products.sort((i1, i2) => i1.isSelled - i2.isSelled);
+  let selled = data.products.filter(p => p.isSelled);
+  let notSelled = data.products.filter(p => !p.isSelled);
+  selled = selled.sort((a, b) => a.name.localeCompare(b.name));
+  notSelled = notSelled.sort((a, b) => a.name.localeCompare(b.name));
+  
+  items = notSelled.concat(selled);
   items.forEach((p, i) => drawProducts(i, p));
+  
   if (window.location.pathname.includes('garage-buyers.html')) {
     listBuyers();
   }
@@ -137,7 +143,7 @@ function drawProducts(index, product) {
           </h5>
           <div class="card-text">
             <span class="float-start">
-              ${product.description} <br />
+              ${product.description ? `${product.description}<br />` : ''}
               <span ${product.isSelled ? 'class="text-decoration-line-through' : ''}"><span class="fw-bold">Precio:</span> ${formatterPrice.format(product.price)}</span>
             </span>
             ${product.isSelled ? "" : `<button onclick="addItem(${product.id})" class="btn btn-success float-end"><i class="fa-solid fa-cart-plus"></i></button>`}

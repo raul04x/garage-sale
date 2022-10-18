@@ -526,6 +526,160 @@
                     "style": "w-100"
                 }
             ]
+        },
+        {
+            "name": "365 Stories for Girls [Inglés]",
+            "description": "Libro ideal para leer una historia por día",
+            "price": 50000,
+            "isSelled": false,
+            "isDelivered": false,
+            "buyer": "",
+            "photos": [
+                {
+                    "path": "img/books/365-stories-for-girls.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "Pack Ayn Rand [Inglés]",
+            "description": "The Fountainhead y Atlas Shrugged",
+            "price": 60000,
+            "isSelled": false,
+            "isDelivered": false,
+            "buyer": "",
+            "photos": [
+                {
+                    "path": "img/books/ayn-rand.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "Cóndores no Entierran Todos los Días",
+            "description": "Autor: Gustavo Álvares Gardeazábal",
+            "price": 20000,
+            "isSelled": false,
+            "isDelivered": false,
+            "buyer": "",
+            "photos": [
+                {
+                    "path": "img/books/condores-nmtd.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "The Devil in the White City [Inglés]",
+            "description": "Autor: Erik Larson",
+            "price": 45000,
+            "isSelled": false,
+            "isDelivered": false,
+            "buyer": "",
+            "photos": [
+                {
+                    "path": "img/books/devil-white-city.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "El Olvido que Seremos",
+            "description": "Autor: Héctor Abad Faciolince",
+            "price": 15000,
+            "isSelled": false,
+            "isDelivered": false,
+            "buyer": "",
+            "photos": [
+                {
+                    "path": "img/books/el-olvido.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "Fundamentos de la Animación",
+            "description": "Autor: Paul Wells",
+            "price": 45000,
+            "isSelled": false,
+            "isDelivered": false,
+            "buyer": "",
+            "photos": [
+                {
+                    "path": "img/books/fun-ani.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "Interchange 1 - 4th Edition",
+            "description": "",
+            "price": 30000,
+            "isSelled": false,
+            "isDelivered": false,
+            "buyer": "",
+            "photos": [
+                {
+                    "path": "img/books/interchange-1.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "Interchange 2 - 4th Edition",
+            "description": "",
+            "price": 35000,
+            "isSelled": false,
+            "isDelivered": false,
+            "buyer": "",
+            "photos": [
+                {
+                    "path": "img/books/interchange-2.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "L - Diccionario en Alemán",
+            "description": "",
+            "price": 140000,
+            "isSelled": false,
+            "isDelivered": false,
+            "buyer": "",
+            "photos": [
+                {
+                    "path": "img/books/l-dictionary.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "Market Leader",
+            "description": "Libro de inglés de negocios",
+            "price": 40000,
+            "isSelled": false,
+            "isDelivered": false,
+            "buyer": "",
+            "photos": [
+                {
+                    "path": "img/books/market-leader.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "Merriam-Webster’s Everyday Language Reference Set",
+            "description": "Thesaurus, Vocabulary Builder y Dictionary (Sinónimos, generador de vocabulario y diccionario)",
+            "price": 60000,
+            "isSelled": false,
+            "isDelivered": false,
+            "buyer": "",
+            "photos": [
+                {
+                    "path": "img/books/merriam-wester-set.jpg",
+                    "style": "w-100"
+                }
+            ]
         }
     ]
 }
