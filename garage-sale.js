@@ -12,7 +12,7 @@ const getTemplateItemInCart = (products, isBuyerView = false) => {
   let template = '';
 
   products.forEach(p => {
-    template += `<li id="item-${p.id}" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start">
+    template += `<li id="item-${p.id}" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start ${p.isSelled ? 'list-group-item-success' : ''}">
       <div class="w-25">
         <img class="img-fluid" src="${p.photos[0].path}" alt="${p.name}">
       </div>
@@ -31,9 +31,14 @@ const getTemplateItemInCart = (products, isBuyerView = false) => {
 const listBuyers = () => {
   let searchParams = new URLSearchParams(window.location.search);
   let buyer = searchParams.get('buyer');
+  let delivered = searchParams.get('delivered');
   let info = '';
 
-  if (buyer && buyer === 'all-admin') {
+  if (delivered === 'yes') {
+    info = getDeliveredItems(true);
+    info += getDeliveredItems(false);
+  }
+  else if (buyer && buyer === 'all-admin') {
     let buyers = new Set();
     items.filter(p => p.buyer).forEach(p => {
       buyers.add(p.buyer);
@@ -52,6 +57,15 @@ const getBuyerItems = (buyer) => {
   const filtered = items.filter(i => i.buyer === buyer);
   const value = formatterPrice.format(filtered.reduce((acc, val) => acc += val.price, 0));
   itemsBuyer = `<li class="list-group-item list-group-item-warning d-flex justify-content-between align-items-start"><h5>${buyer}</h5><span>Total: ${value}</span></li>`;
+  itemsBuyer += getTemplateItemInCart(filtered, true);
+  return itemsBuyer;
+}
+
+const getDeliveredItems = (isDelivered) => {
+  let itemsBuyer = '';
+  const filtered = items.filter(i => i.isDelivered === isDelivered);
+  const value = formatterPrice.format(filtered.reduce((acc, val) => acc += val.price, 0));
+  itemsBuyer = `<li class="list-group-item list-group-item-warning d-flex justify-content-between align-items-start"><h5>${isDelivered ? 'Entregado' : 'No Entregado'}</h5><span>Total: ${value}</span></li>`;
   itemsBuyer += getTemplateItemInCart(filtered, true);
   return itemsBuyer;
 }
