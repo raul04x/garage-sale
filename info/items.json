@@ -531,9 +531,9 @@
             "name": "365 Stories for Girls [Inglés]",
             "description": "Libro ideal para leer una historia por día",
             "price": 50000,
-            "isSelled": false,
+            "isSelled": true,
             "isDelivered": false,
-            "buyer": "",
+            "buyer": "Luz",
             "photos": [
                 {
                     "path": "img/books/365-stories-for-girls.jpg",
@@ -671,9 +671,9 @@
             "name": "Merriam-Webster’s Everyday Language Reference Set",
             "description": "Thesaurus, Vocabulary Builder y Dictionary (Sinónimos, generador de vocabulario y diccionario)",
             "price": 60000,
-            "isSelled": false,
+            "isSelled": true,
             "isDelivered": false,
-            "buyer": "",
+            "buyer": "Luz",
             "photos": [
                 {
                     "path": "img/books/merriam-wester-set.jpg",
