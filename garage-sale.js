@@ -12,7 +12,7 @@ const getTemplateItemInCart = (products, isBuyerView = false) => {
   let template = '';
 
   products.forEach(p => {
-    template += `<li id="item-${p.id}" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start ${p.isSelled ? 'list-group-item-success' : ''}">
+    template += `<li id="item-${p.id}" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start ${p.isSold ? 'list-group-item-success' : ''}">
       <div class="w-25">
         <img class="img-fluid" src="${p.photos[0].path}" alt="${p.name}">
       </div>
@@ -80,12 +80,12 @@ toastr.info(
 );
 
 $.getJSON('info/items.json', (data) => {
-  let selled = data.products.filter(p => p.isSelled);
-  let notSelled = data.products.filter(p => !p.isSelled);
-  selled = selled.sort((a, b) => a.name.localeCompare(b.name));
-  notSelled = notSelled.sort((a, b) => a.name.localeCompare(b.name));
+  let sold = data.products.filter(p => p.isSold);
+  let notSold = data.products.filter(p => !p.isSold);
+  sold = sold.sort((a, b) => a.name.localeCompare(b.name));
+  notSold = notSold.sort((a, b) => a.name.localeCompare(b.name));
   
-  items = notSelled.concat(selled);
+  items = notSold.concat(sold);
   items.forEach((p, i) => drawProducts(i, p));
   
   if (window.location.pathname.includes('garage-buyers.html')) {
@@ -99,7 +99,7 @@ function drawProducts(index, product) {
   let carouselButtons = '';
 
   const target = `ci-${index}`;
-  const vendida = '<span class="position-absolute top-0 start-50 translate-middle badge rounded-pill bg-success">Producto Vendido</span>';
+  const vendida = '<div class="overlay-sold"><div class="text-sold position-absolute top-50 start-50 fs-2 badge rounded-pill bg-success shadow-lg">Producto Vendido</div></div>';
   product.id = index;
 
   product.photos.forEach((p, i) => {
@@ -124,7 +124,7 @@ function drawProducts(index, product) {
 
   const cardProduct = `
   <div class="col">
-    <div class="card h-100 ${product.isSelled ? "border-success" : ""}">
+    <div class="card h-100 ${product.isSold ? "border-success" : ""}">
         <h5 class="card-header">
           <div id="${target}" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -135,7 +135,7 @@ function drawProducts(index, product) {
             </div>
             ${carouselButtons}
           </div>
-          ${product.isSelled ? vendida : ""}
+          ${product.isSold ? vendida : ""}
         </h5>
         <div class="card-body">
           <h5 class="card-title">
@@ -144,9 +144,9 @@ function drawProducts(index, product) {
           <div class="card-text">
             <span class="float-start">
               ${product.description ? `${product.description}<br />` : ''}
-              <span ${product.isSelled ? 'class="text-decoration-line-through' : ''}"><span class="fw-bold">Precio:</span> ${formatterPrice.format(product.price)}</span>
+              <span ${product.isSold ? 'class="text-decoration-line-through' : ''}"><span class="fw-bold">Precio:</span> ${formatterPrice.format(product.price)}</span>
             </span>
-            ${product.isSelled ? "" : `<button onclick="addItem(${product.id})" class="btn btn-success float-end"><i class="fa-solid fa-cart-plus"></i></button>`}
+            ${product.isSold ? "" : `<button onclick="addItem(${product.id})" class="btn btn-success float-end"><i class="fa-solid fa-cart-plus"></i></button>`}
           </div>
         </div>
     </div>

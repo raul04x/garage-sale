@@ -13,3 +13,20 @@
 ::-webkit-scrollbar-thumb:hover {
     background: #03bb8d;
 }
+
+.overlay-sold {
+    background-color: rgba(25, 135, 84, 0.5);
+    border-radius: 0.3125em;
+    bottom: 0;
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+}
+
+.text-sold {
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
