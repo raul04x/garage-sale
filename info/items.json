@@ -680,6 +680,140 @@
                     "style": "w-100"
                 }
             ]
+        },
+        {
+            "name": "Sony Playstation Cámara PS4",
+            "description": "Incluye cable para conectar al PS5",
+            "price": 200000,
+            "isSold": false,
+            "isDelivered": false,
+            "buyer": "",
+            "photos": [
+                {
+                    "path": "img/gaming/ps-cam-1.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/gaming/ps-cam-2.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "Control Inalámbrico DualSense™ Cosmic Red",
+            "description": "",
+            "price": 220000,
+            "isSold": false,
+            "isDelivered": false,
+            "buyer": "",
+            "photos": [
+                {
+                    "path": "img/gaming/ps5-red-1.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/gaming/ps5-red-2.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "Control Inalámbrico DualSense™ Midnight Black",
+            "description": "",
+            "price": 220000,
+            "isSold": false,
+            "isDelivered": false,
+            "buyer": "",
+            "photos": [
+                {
+                    "path": "img/gaming/ps5-midnight-1.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/gaming/ps5-midnight-2.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "DualSense™ Estación de Carga Doble",
+            "description": "",
+            "price": 100000,
+            "isSold": false,
+            "isDelivered": false,
+            "buyer": "",
+            "photos": [
+                {
+                    "path": "img/gaming/ps5-charger-1.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/gaming/ps5-charger-2.jpg",
+                    "style": "w-100"
+                }
+            ]
+        },
+        {
+            "name": "Ford Fiesta HB Titanium",
+            "description": "Color Plata Puro, sistema de info-entretenimiento que soporta Andoid Auto y Car Play, último mantenimimiento en Casa Toro el 15 de octubre de 2022, único dueño, placa par de Bogotá.",
+            "price": 55000000,
+            "isSold": false,
+            "isDelivered": false,
+            "buyer": "",
+            "photos": [
+                {
+                    "path": "img/ford-fiesta/carro-01.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/ford-fiesta/carro-02.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/ford-fiesta/carro-03.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/ford-fiesta/carro-04.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/ford-fiesta/carro-05.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/ford-fiesta/carro-06.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/ford-fiesta/carro-07.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/ford-fiesta/carro-08.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/ford-fiesta/carro-09.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/ford-fiesta/carro-10.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/ford-fiesta/carro-11.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/ford-fiesta/carro-12.jpg",
+                    "style": "w-100"
+                },
+                {
+                    "path": "img/ford-fiesta/carro-13.jpg",
+                    "style": "w-100"
+                }
+            ]
         }
     ]
 }
