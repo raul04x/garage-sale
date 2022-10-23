@@ -164,7 +164,7 @@
             "description": "Q-Drive WD11N64FOOX Carga Frontal con Add Wash, 11.5 kg",
             "price": 1900000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Jhon",
             "photos": [
                 {
@@ -255,9 +255,9 @@
             "name": "Mueble Televisor",
             "description": "Mueble ideal para cuarto, tamaño alto: 70cm, ancho: 130cm, profundo: 39cm",
             "price": 150000,
-            "isSold": false,
-            "isDelivered": false,
-            "buyer": "",
+            "isSold": true,
+            "isDelivered": true,
+            "buyer": "Jhon",
             "photos": [
                 {
                     "path": "img/mueble-tv-gris/mueble-tv-gris-1.jpg",
@@ -458,7 +458,7 @@
             "description": "Pantalla OLED ultra-delgada, cuenta con IA, Sonido Dolby Atmos y Dolby Vision para Imagen, su procesador inteligente trabaja para una imagen y sonido mejorada, magic remote, tiene 4 puertos HDMI 2.1",
             "price": 2000000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Jhon",
             "photos": [
                 {
