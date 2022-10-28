@@ -411,9 +411,9 @@
             "name": "Sofá Cama Mirano con Pillow Tela Gris",
             "description": "Madera Inmunizada, tamaño 190x95x90, tres posiciones de inclinación del espaldar",
             "price": 1100000,
-            "isSold": true,
+            "isSold": false,
             "isDelivered": false,
-            "buyer": "Juan",
+            "buyer": "",
             "photos": [
                 {
                     "path": "img/sofa-cama-1.jpg",
