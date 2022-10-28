@@ -181,9 +181,9 @@
             "name": "Maleta de Viaje Totto",
             "description": "Maleta grande de viaje marca Totto 48x28.5x78 cm",
             "price": 100000,
-            "isSold": false,
+            "isSold": true,
             "isDelivered": false,
-            "buyer": "",
+            "buyer": "Guiomar",
             "photos": [
                 {
                     "path": "img/maleta/maleta1.jpg",
