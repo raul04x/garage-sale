@@ -42,6 +42,24 @@
     </header>
     <main class="overflow-auto">
         <div class="container-fluid mt-3 mb-3">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item active">
+                        <small class="navbar-text position-relative">
+                            Productos disponibles
+                            <span id="num-available" class="badge rounded-pill text-bg-warning">
+                            </span>
+                        </small>
+                    </li>
+                    <li class="breadcrumb-item active">
+                        <small class="navbar-text position-relative">
+                            Productos vendidos
+                            <span id="num-sold" class="badge rounded-pill text-bg-success">
+                            </span>
+                        </small>
+                    </li>
+                </ol>
+            </nav>
             <div id="root" class="row row-cols-1 row-cols-md-2 g-4">
                 <div class="col">
                     <div class="card h-100">

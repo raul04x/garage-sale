@@ -84,6 +84,9 @@ $.getJSON('info/items.json', (data) => {
   let notSold = data.products.filter(p => !p.isSold);
   sold = sold.sort((a, b) => a.name.localeCompare(b.name));
   notSold = notSold.sort((a, b) => a.name.localeCompare(b.name));
+
+  $('#num-available').text(notSold.length);
+  $('#num-sold').text(sold.length);
   
   items = notSold.concat(sold);
   items.forEach((p, i) => drawProducts(i, p));
