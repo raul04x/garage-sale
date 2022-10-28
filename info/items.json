@@ -315,9 +315,9 @@
             "name": "Parlante Sony Extra Bass XB10",
             "description": "Parlante bluetooth y soporta NFC para emparejar fácilmente el parlante con otros dispositibos",
             "price": 80000,
-            "isSold": false,
+            "isSold": true,
             "isDelivered": false,
-            "buyer": "",
+            "buyer": "Guillermo",
             "photos": [
                 {
                     "path": "img/parlante-bt-1.jpg",
@@ -721,9 +721,9 @@
             "name": "Control Inalámbrico DualSense™ Midnight Black",
             "description": "",
             "price": 220000,
-            "isSold": false,
+            "isSold": true,
             "isDelivered": false,
-            "buyer": "",
+            "buyer": "Guillermo",
             "photos": [
                 {
                     "path": "img/gaming/ps5-midnight-01.jpg",
@@ -739,9 +739,9 @@
             "name": "DualSense™ Estación de Carga Doble",
             "description": "",
             "price": 100000,
-            "isSold": false,
+            "isSold": true,
             "isDelivered": false,
-            "buyer": "",
+            "buyer": "Guillermo",
             "photos": [
                 {
                     "path": "img/gaming/ps5-charger-01.jpg",
