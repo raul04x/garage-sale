@@ -90,7 +90,7 @@
             "description": "Calentador de ambiente de aceite programable de tipo radiador",
             "price": 450000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Rafa",
             "photos": [
                 {
@@ -104,7 +104,7 @@
             "description": "Camara Kasa tp-link, con memoria micro-sd de 64GB, con función de grabar 24/7",
             "price": 110000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Cintis",
             "photos": [
                 {
@@ -118,7 +118,7 @@
             "description": "Camara Kasa tp-link, envía 20 segundos de video cada que detecta movimiento a la nube",
             "price": 90000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Cintis",
             "photos": [
                 {
@@ -316,7 +316,7 @@
             "description": "Parlante bluetooth y soporta NFC para emparejar fácilmente el parlante con otros dispositibos",
             "price": 80000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Guillermo",
             "photos": [
                 {
@@ -330,7 +330,7 @@
             "description": "Perchero con base para zapatos, graduable en altura",
             "price": 30000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Cintis",
             "photos": [
                 {
@@ -518,7 +518,7 @@
             "description": "Zapatero en aluminio apilable, tamaño 89x33 cm",
             "price": 80000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Cintis",
             "photos": [
                 {
@@ -703,9 +703,9 @@
             "name": "Control Inalámbrico DualSense™ Cosmic Red",
             "description": "",
             "price": 220000,
-            "isSold": false,
-            "isDelivered": false,
-            "buyer": "",
+            "isSold": true,
+            "isDelivered": true,
+            "buyer": "Guillermo",
             "photos": [
                 {
                     "path": "img/gaming/ps5-red-01.jpg",
@@ -722,7 +722,7 @@
             "description": "",
             "price": 220000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Guillermo",
             "photos": [
                 {
@@ -740,7 +740,7 @@
             "description": "",
             "price": 100000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Guillermo",
             "photos": [
                 {
