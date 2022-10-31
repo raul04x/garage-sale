@@ -1,6 +1,16 @@
 {
     "products": [
         {
+            "name": "Apartaestudio Acqua Residencial",
+            "description": "Hermoso Apartaestudio en Chía, Conjunto Acqua Residencial, 2 parqueaderos y deposito, con areas comunes para niños, piscina, salón social entre otras interesantes areas sociales",
+            "price": 285000000,
+            "isSold": true,
+            "isDelivered": true,
+            "buyer": "Habi",
+            "photos": [],
+            "video": "<iframe class=\"w-100\" height=\"315\" src=\"https://www.youtube.com/embed/9wsrXyvXre0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+        },
+        {
             "name": "Amazon Fire Stick 4k",
             "description": "Amazon Fire Stick 4k 2da generación con control remoto por voz",
             "price": 80000,
@@ -301,9 +311,9 @@
             "name": "Nevera LG Congelador Inferior No Frost 446 lt LB45SPT",
             "description": "Nevera LG cons soporte par LG ThinQ, se puede controlar la temperatura o cambiar al modo vacaciones desde el celular, o te televisores LG",
             "price": 2200000,
-            "isSold": false,
+            "isSold": true,
             "isDelivered": false,
-            "buyer": "",
+            "buyer": "Luz",
             "photos": [
                 {
                     "path": "img/nevera-1.jpg",

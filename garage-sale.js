@@ -100,6 +100,7 @@ function drawProducts(index, product) {
   let buttonsImg = '';
   let images = '';
   let carouselButtons = '';
+  let imgOrVideo = '';
 
   const target = `ci-${index}`;
   const vendida = '<div class="overlay-sold"><div class="text-sold position-absolute top-50 start-50 fs-2 badge rounded-pill bg-success shadow-lg">Producto Vendido</div></div>';
@@ -125,19 +126,22 @@ function drawProducts(index, product) {
     buttonsImg = '';
   }
 
+  imgOrVideo = `
+    <div id="${target}" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">${buttonsImg}</div>
+      <div class="carousel-inner">${images}</div>
+      ${carouselButtons}
+    </div>`;
+
+  if (product.video) {
+    imgOrVideo = product.video;
+  }
+
   const cardProduct = `
   <div class="col">
     <div class="card h-100 ${product.isSold ? "border-success" : ""}">
         <h5 class="card-header">
-          <div id="${target}" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              ${buttonsImg}
-            </div>
-            <div class="carousel-inner">
-              ${images}
-            </div>
-            ${carouselButtons}
-          </div>
+          ${imgOrVideo}
           ${product.isSold ? vendida : ""}
         </h5>
         <div class="card-body">
