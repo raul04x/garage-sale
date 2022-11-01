@@ -5,7 +5,7 @@
             "description": "Hermoso Apartaestudio en Chía, Conjunto Acqua Residencial, 2 parqueaderos y deposito, con areas comunes para niños, piscina, salón social entre otras interesantes areas sociales",
             "price": 285000000,
             "isSold": true,
-            "isDelivered": true,
+            "isDelivered": false,
             "buyer": "Habi",
             "photos": [],
             "video": "<iframe class=\"w-100\" height=\"315\" src=\"https://www.youtube.com/embed/9wsrXyvXre0\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
