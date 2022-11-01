@@ -14,7 +14,7 @@ const getTemplateItemInCart = (products, isBuyerView = false) => {
   products.forEach(p => {
     template += `<li id="item-${p.id}" class="list-group-item list-group-item-action d-flex justify-content-between align-items-start ${p.isSold ? 'list-group-item-success' : ''}">
       <div class="w-25">
-        <img class="img-fluid" src="${p.photos[0].path}" alt="${p.name}">
+        <img class="img-fluid" src="${p.photos[0]?.path}" alt="${p.name}">
       </div>
       <div class="ms-2 me-auto">
         <div class="fw-bold">${p.name}</div>
