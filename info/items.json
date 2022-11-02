@@ -209,9 +209,9 @@
             "name": "Escritorio New York",
             "description": "Escritorio en vidrio templado, foto the New York, tiene 2 cajones, color blanco, estructura en aluminio, tamaño 105cm por 58cm",
             "price": 150000,
-            "isSold": false,
+            "isSold": true,
             "isDelivered": false,
-            "buyer": "",
+            "buyer": "Yineth",
             "photos": [
                 {
                     "path": "img/mesa-1.jpg",
