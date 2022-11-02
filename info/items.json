@@ -353,9 +353,9 @@
             "name": "Plancha Oster",
             "description": "Plancha a Vapor Oster Negra con Tecnología Aerocerámica Antiadherente",
             "price": 80000,
-            "isSold": false,
+            "isSold": true,
             "isDelivered": false,
-            "buyer": "",
+            "buyer": "Criss",
             "photos": [
                 {
                     "path": "img/plancha/plancha-1.jpg",
