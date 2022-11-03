@@ -141,9 +141,9 @@
             "name": "Cámara Sony DSC-HX400V",
             "description": "Cámara digital compacta con zoom óptico de 50x, maleta de cargar, careta de cuero y abrazadera, con 3 memorias SD (64GB, 16GB y 8GB)",
             "price": 1200000,
-            "isSold": false,
+            "isSold": true,
             "isDelivered": false,
-            "buyer": "",
+            "buyer": "Paula",
             "photos": [
                 {
                     "path": "img/camara-sony/camara-sony-1.jpg",
