@@ -223,9 +223,9 @@
             "name": "Escritorio Pequeño",
             "description": "Escritorio práctico color wengue, con cajón, compartimento, tamaño 80cm por 45cm",
             "price": 50000,
-            "isSold": false,
+            "isSold": true,
             "isDelivered": false,
-            "buyer": "",
+            "buyer": "Victor",
             "photos": [
                 {
                     "path": "img/mesa-laptop-1.jpg",
