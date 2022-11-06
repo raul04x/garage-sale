@@ -43,6 +43,7 @@
             "description": "Mesa graduable 5 alturas, para portátil, monitor u otros usos de soporte.",
             "price": 50000,
             "isSold": true,
+            "isDelivered": true,
             "buyer": "Fernando",
             "photos": [
                 {
@@ -252,7 +253,7 @@
             "description": "Monitor LG 24\" IPS LED Full HD 1920 X 1080",
             "price": 250000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Luz",
             "photos": [
                 {
@@ -298,7 +299,7 @@
             "description": "Tres plugs controlables por Google Home, Alexa o directamente desde la aplicación Kasa y dos puertos USB",
             "price": 60000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Fernando",
             "photos": [
                 {
@@ -404,7 +405,7 @@
             "description": "Silla clic clack que permite recostar el espaldar para acostarse o expandir los puestos disponibles para visita.",
             "price": 450000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Juan",
             "photos": [
                 {
@@ -514,7 +515,7 @@
             "description": "Zapatero en aglomerado MDF, tamaño 60x30 cm",
             "price": 40000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Luz",
             "photos": [
                 {
@@ -542,7 +543,7 @@
             "description": "Libro ideal para leer una historia por día",
             "price": 50000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Luz",
             "photos": [
                 {
@@ -569,9 +570,9 @@
             "name": "Cóndores no Entierran Todos los Días",
             "description": "Autor: Gustavo Álvares Gardeazábal",
             "price": 20000,
-            "isSold": false,
-            "isDelivered": false,
-            "buyer": "",
+            "isSold": true,
+            "isDelivered": true,
+            "buyer": "Yineth",
             "photos": [
                 {
                     "path": "img/books/condores-nmtd.jpg",
@@ -611,9 +612,9 @@
             "name": "Fundamentos de la Animación",
             "description": "Autor: Paul Wells",
             "price": 45000,
-            "isSold": false,
-            "isDelivered": false,
-            "buyer": "",
+            "isSold": true,
+            "isDelivered": true,
+            "buyer": "Santi",
             "photos": [
                 {
                     "path": "img/books/fun-ani.jpg",
@@ -682,7 +683,7 @@
             "description": "Thesaurus, Vocabulary Builder y Dictionary (Sinónimos, generador de vocabulario y diccionario)",
             "price": 60000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Luz",
             "photos": [
                 {
