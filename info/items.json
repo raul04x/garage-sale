@@ -159,9 +159,9 @@
             "name": "Canecas 65lts 80x100 cm",
             "description": "Canecas para almacenar ropa, o cualquier otra cosa ($30,000 c/u)",
             "price": 50000,
-            "isSold": false,
+            "isSold": true,
             "isDelivered": false,
-            "buyer": "",
+            "buyer": "Luz",
             "photos": [
                 {
                     "path": "img/canecas-1.jpg",
@@ -421,9 +421,9 @@
             "name": "Sofá Cama Mirano con Pillow Tela Gris",
             "description": "Madera Inmunizada, tamaño 190x95x90, tres posiciones de inclinación del espaldar",
             "price": 1100000,
-            "isSold": false,
+            "isSold": true,
             "isDelivered": false,
-            "buyer": "",
+            "buyer": "Luz",
             "photos": [
                 {
                     "path": "img/sofa-cama-1.jpg",
