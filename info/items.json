@@ -70,9 +70,9 @@
             "name": "Bicicleta Todo Terreno",
             "description": "Bicicleta marco STL en aluminio, cambios shimano, frenos de disco, cableado interno",
             "price": 1000000,
-            "isSold": false,
+            "isSold": true,
             "isDelivered": false,
-            "buyer": "",
+            "buyer": "Stefy-Seller",
             "photos": [
                 {
                     "path": "img/bici/bici-01.jpg",
@@ -482,9 +482,9 @@
             "name": "TV LG 55\" Pulgadas 139cm OLED55CX 4K-UHD OLED",
             "description": "Pantalla OLED ultra-delgada, cuenta con IA, Sonido Dolby Atmos y Dolby Vision IQ para Imagen, compatible con NVIDIA G-SYNC, su procesador inteligente trabaja para una imagen y sonido mejorada, magic remote, tiene 4 puertos HDMI 2.1",
             "price": 2500000,
-            "isSold": false,
+            "isSold": true,
             "isDelivered": false,
-            "buyer": "",
+            "buyer": "Stefy-Seller",
             "photos": [
                 {
                     "path": "img/tele-2.jpg",
@@ -496,9 +496,9 @@
             "name": "Logitech Z906",
             "description": "Altavoces Logitech Z906 5.1 Sonido Envolvente THX",
             "price": 600000,
-            "isSold": false,
-            "isDelivered": false,
-            "buyer": "",
+            "isSold": true,
+            "isDelivered": true,
+            "buyer": "Victor",
             "photos": [
                 {
                     "path": "img/z906/z906-1.jpg",
