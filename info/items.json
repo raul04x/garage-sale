@@ -57,7 +57,7 @@
             "description": "Base refrigerante para portátil, con ventilador iluminado",
             "price": 20000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Jhoana",
             "photos": [
                 {
@@ -71,7 +71,7 @@
             "description": "Bicicleta marco STL en aluminio, cambios shimano, frenos de disco, cableado interno",
             "price": 1000000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Stefy-Seller",
             "photos": [
                 {
@@ -143,7 +143,7 @@
             "description": "Cámara digital compacta con zoom óptico de 50x, maleta de cargar, careta de cuero y abrazadera, con 3 memorias SD (64GB, 16GB y 8GB)",
             "price": 1200000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Paula",
             "photos": [
                 {
@@ -161,7 +161,7 @@
             "description": "Canecas para almacenar ropa, o cualquier otra cosa ($30,000 c/u)",
             "price": 50000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Luz",
             "photos": [
                 {
@@ -193,7 +193,7 @@
             "description": "Maleta grande de viaje marca Totto 48x28.5x78 cm",
             "price": 100000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Guiomar",
             "photos": [
                 {
@@ -211,7 +211,7 @@
             "description": "Escritorio en vidrio templado, foto the New York, tiene 2 cajones, color blanco, estructura en aluminio, tamaño 105cm por 58cm",
             "price": 150000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Yineth",
             "photos": [
                 {
@@ -225,7 +225,7 @@
             "description": "Escritorio práctico color wengue, con cajón, compartimento, tamaño 80cm por 45cm",
             "price": 50000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Victor",
             "photos": [
                 {
@@ -284,9 +284,9 @@
             "name": "Centro de Entretenimiento",
             "description": "Mueble ideal para sala, tamaño alto: 155cm, ancho: 180cm, profundo: 37cm",
             "price": 700000,
-            "isSold": false,
-            "isDelivered": false,
-            "buyer": "",
+            "isSold": true,
+            "isDelivered": true,
+            "buyer": "Victor",
             "photos": [
                 {
                     "path": "img/mueble-tv-sala.jpg",
@@ -313,7 +313,7 @@
             "description": "Nevera LG cons soporte par LG ThinQ, se puede controlar la temperatura o cambiar al modo vacaciones desde el celular, o te televisores LG",
             "price": 2200000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Luz",
             "photos": [
                 {
@@ -355,7 +355,7 @@
             "description": "Plancha a Vapor Oster Negra con Tecnología Aerocerámica Antiadherente",
             "price": 80000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Criss",
             "photos": [
                 {
@@ -387,7 +387,7 @@
             "description": "Silla negra ergonómica, espaldar y roposa brazos ajustable, ajustable en altura",
             "price": 100000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Karu",
             "photos": [
                 {
@@ -423,7 +423,7 @@
             "description": "Madera Inmunizada, tamaño 190x95x90, tres posiciones de inclinación del espaldar",
             "price": 1100000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Luz-1",
             "photos": [
                 {
@@ -447,24 +447,6 @@
             ]
         },
         {
-            "name": "Teclado Logitech G413 Carbon",
-            "description": "Teclado mecánico con retroiluminación ideal para juegos",
-            "price": 200000,
-            "isSold": false,
-            "isDelivered": false,
-            "buyer": "",
-            "photos": [
-                {
-                    "path": "img/teclado/teclado-1.jpg",
-                    "style": "w-100"
-                },
-                {
-                    "path": "img/teclado/teclado-2.jpg",
-                    "style": "w-100"
-                }
-            ]
-        },
-        {
             "name": "TV LG 55\" Pulgadas 139cm OLED55B9 4K-UHD OLED",
             "description": "Pantalla OLED ultra-delgada, cuenta con IA, Sonido Dolby Atmos y Dolby Vision para Imagen, su procesador inteligente trabaja para una imagen y sonido mejorada, magic remote, tiene 4 puertos HDMI 2.1",
             "price": 2000000,
@@ -483,7 +465,7 @@
             "description": "Pantalla OLED ultra-delgada, cuenta con IA, Sonido Dolby Atmos y Dolby Vision IQ para Imagen, compatible con NVIDIA G-SYNC, su procesador inteligente trabaja para una imagen y sonido mejorada, magic remote, tiene 4 puertos HDMI 2.1",
             "price": 2500000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Stefy-Seller",
             "photos": [
                 {
@@ -556,8 +538,8 @@
             "name": "Pack Ayn Rand [Inglés]",
             "description": "The Fountainhead y Atlas Shrugged",
             "price": 60000,
-            "isSold": false,
-            "isDelivered": false,
+            "isSold": true,
+            "isDelivered": true,
             "buyer": "",
             "photos": [
                 {
@@ -584,9 +566,9 @@
             "name": "The Devil in the White City [Inglés]",
             "description": "Autor: Erik Larson",
             "price": 45000,
-            "isSold": false,
-            "isDelivered": false,
-            "buyer": "",
+            "isSold": true,
+            "isDelivered": true,
+            "buyer": "Stefy",
             "photos": [
                 {
                     "path": "img/books/devil-white-city.jpg",
@@ -598,8 +580,8 @@
             "name": "El Olvido que Seremos",
             "description": "Autor: Héctor Abad Faciolince",
             "price": 15000,
-            "isSold": false,
-            "isDelivered": false,
+            "isSold": true,
+            "isDelivered": true,
             "buyer": "",
             "photos": [
                 {
@@ -626,9 +608,9 @@
             "name": "Interchange 1 - 4th Edition",
             "description": "",
             "price": 30000,
-            "isSold": false,
-            "isDelivered": false,
-            "buyer": "",
+            "isSold": true,
+            "isDelivered": true,
+            "buyer": "Carol",
             "photos": [
                 {
                     "path": "img/books/interchange-1.jpg",
@@ -640,9 +622,9 @@
             "name": "Interchange 2 - 4th Edition",
             "description": "",
             "price": 35000,
-            "isSold": false,
-            "isDelivered": false,
-            "buyer": "",
+            "isSold": true,
+            "isDelivered": true,
+            "buyer": "Carol",
             "photos": [
                 {
                     "path": "img/books/interchange-2.jpg",
@@ -654,9 +636,9 @@
             "name": "L - Diccionario en Alemán",
             "description": "",
             "price": 140000,
-            "isSold": false,
-            "isDelivered": false,
-            "buyer": "",
+            "isSold": true,
+            "isDelivered": true,
+            "buyer": "Stefy",
             "photos": [
                 {
                     "path": "img/books/l-dictionary.jpg",
@@ -668,9 +650,9 @@
             "name": "Market Leader",
             "description": "Libro de inglés de negocios",
             "price": 40000,
-            "isSold": false,
-            "isDelivered": false,
-            "buyer": "",
+            "isSold": true,
+            "isDelivered": true,
+            "buyer": "Carol",
             "photos": [
                 {
                     "path": "img/books/market-leader.jpg",
@@ -696,8 +678,8 @@
             "name": "Sony Playstation Cámara PS4",
             "description": "Incluye cable para conectar al PS5",
             "price": 200000,
-            "isSold": false,
-            "isDelivered": false,
+            "isSold": true,
+            "isDelivered": true,
             "buyer": "",
             "photos": [
                 {
@@ -769,7 +751,7 @@
             "description": "Color Plata Puro, sistema de info-entretenimiento que soporta Andoid Auto y Car Play, último mantenimimiento en Casa Toro el 15 de octubre de 2022, único dueño, placa par de Bogotá.",
             "price": 55000000,
             "isSold": true,
-            "isDelivered": false,
+            "isDelivered": true,
             "buyer": "Comagro",
             "photos": [
                 {
